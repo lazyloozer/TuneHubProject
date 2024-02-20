@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html "https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>REGISTER</title>
+</head>
+<body>
+<h2>Registration Form</h2>
+<form action="register" method="post">
+<label> UserName:</label><br>
+<input type="text" name="username"  required><br><br>
+<label>Email:</label><br>
+<input type="email" name="email"  required><br><br>
+<label>Password:</label><br>
+<input type="password" name="password" required><br><br>
+<label>Gender:</label><br>
+Male<input type="radio" name="gender" value="Male">
+
+Female<input type="radio" name="gender" value="Female">
+Others<input type="radio" name="gender" value="Others"><br><br>
+<label>Role:</label><br>
+Admin<input type="radio" name="role" value="Admin">
+Customer<input type="radio" name="role" value="Customer"><br><br>
+<label>Address:</label><br>
+<textarea  name="address"></textarea>  <br><br>
+<input type="submit" value="SUBMIT" >
+</form>
+
+</body>
+</html>
